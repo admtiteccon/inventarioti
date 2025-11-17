@@ -1,0 +1,69 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+dev_inventory.db
+
+# Environment
+.env
+.env.local
+.env.docker
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Uploads
+uploads/
+app/static/uploads/*
+
+# Backups
+backups/
+
+# Documentation
+*.md
+*.txt
+!requirements.txt
+!runtime.txt
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Scripts
+install_linux.sh
+create_deployment_package.py
+create_excel_templates.py
+translate_system.py
+test_*.py
+
+# Kiro
+.kiro/
+
+# Outros
+inventario.py

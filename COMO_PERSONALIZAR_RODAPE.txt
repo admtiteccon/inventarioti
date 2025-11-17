@@ -1,0 +1,106 @@
+================================================================================
+🎨 COMO PERSONALIZAR O RODAPÉ DO SISTEMA - GUIA RÁPIDO
+================================================================================
+
+✅ JÁ ESTÁ PRONTO PARA USAR!
+
+📍 ONDE PERSONALIZAR:
+   Arquivo: .env (na raiz do projeto)
+   Linhas: 27-31
+
+🔧 COMO FAZER:
+
+1. Abra o arquivo .env com qualquer editor de texto
+2. Encontre a seção "PERSONALIZE O RODAPÉ AQUI!"
+3. Altere os valores conforme desejado:
+
+   FOOTER_COMPANY_NAME=Sua Empresa Aqui
+   FOOTER_YEAR=2024
+   FOOTER_VERSION=1.0.0
+   FOOTER_DOCS_URL=https://seu-site.com
+   FOOTER_SUPPORT_EMAIL=seu-email@empresa.com
+
+4. Salve o arquivo
+5. Reinicie o servidor Flask (Ctrl+C e depois: python run.py)
+6. Pronto! Abra o navegador e veja o rodapé atualizado
+
+================================================================================
+
+📊 EXEMPLOS PRÁTICOS:
+
+Exemplo 1 - Empresa Brasileira:
+--------------------------------
+FOOTER_COMPANY_NAME=TechSolutions Brasil LTDA
+FOOTER_YEAR=2024
+FOOTER_VERSION=1.0.0
+FOOTER_DOCS_URL=https://docs.techsolutions.com.br
+FOOTER_SUPPORT_EMAIL=suporte@techsolutions.com.br
+
+Resultado no rodapé:
+© 2024 TechSolutions Brasil LTDA
+Version 1.0.0 | Documentation | Support
+
+
+Exemplo 2 - Departamento Interno:
+----------------------------------
+FOOTER_COMPANY_NAME=Departamento de TI - Empresa XYZ
+FOOTER_YEAR=2024
+FOOTER_VERSION=2.0.1
+FOOTER_DOCS_URL=http://intranet.empresa.local/docs
+FOOTER_SUPPORT_EMAIL=ti@empresa.com
+
+Resultado no rodapé:
+© 2024 Departamento de TI - Empresa XYZ
+Version 2.0.1 | Documentation | Support
+
+
+Exemplo 3 - Simples:
+--------------------
+FOOTER_COMPANY_NAME=Sistema de Inventário
+FOOTER_YEAR=2024
+FOOTER_VERSION=1.0
+FOOTER_DOCS_URL=#
+FOOTER_SUPPORT_EMAIL=admin@local
+
+Resultado no rodapé:
+© 2024 Sistema de Inventário
+Version 1.0 | Documentation | Support
+
+================================================================================
+
+💡 DICAS:
+
+- Não use aspas nas variáveis (a menos que queira aspas no texto)
+- O ano pode ser qualquer valor (2024, 2025, etc.)
+- A versão pode seguir qualquer formato (1.0, 2.1.5, v3.0, etc.)
+- A URL pode ser qualquer link (ou # para desabilitar)
+- O email deve ser válido para funcionar o link "mailto:"
+
+================================================================================
+
+📁 ARQUIVOS RELACIONADOS:
+
+- .env                          → Arquivo de configuração (EDITE AQUI!)
+- .env.example                  → Exemplo com todas as variáveis
+- config.py                     → Configuração do Flask (valores padrão)
+- app/templates/base.html       → Template do rodapé (não precisa editar)
+- PERSONALIZACAO_RODAPE.md      → Documentação completa
+
+================================================================================
+
+🚀 TESTE AGORA:
+
+1. Edite o arquivo .env
+2. Altere FOOTER_COMPANY_NAME para o nome da sua empresa
+3. Salve e reinicie o servidor
+4. Acesse: http://127.0.0.1:5000
+5. Role até o final da página
+6. Veja seu rodapé personalizado!
+
+================================================================================
+
+✅ PRONTO! Seu sistema agora tem um rodapé profissional e personalizado!
+
+Dúvidas? Consulte: PERSONALIZACAO_RODAPE.md
+
+================================================================================
